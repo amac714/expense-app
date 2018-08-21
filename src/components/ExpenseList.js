@@ -7,7 +7,7 @@ import selectExpenses from '../selectors/expenses';
 // when you connect an item to the redux store it is reactive
 const ExpenseList = (props) => (
   <div>
-    <h1>ExpenseList</h1>
+    {props.expenses.length > 0 ? <h1>ExpenseList</h1> : <p>No Expenses</p> }
     {props.expenses.map((expense) => {
       return <ExpenseListItem key={expense.id} {...expense}/>
     })}
