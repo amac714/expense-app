@@ -16,14 +16,7 @@ Purpose of this project is to learn and get familiar with React/React-Redux
 
 
 
-# Git Commands
+# Screen Shots
 
-git init - Create a new git repo
+![ScreenShot](https://raw.github.com/amac714/expense-app/master/budgetapp.png)
 
-git status - View the changes to your project code
-
-git add - Add files to staging area
-
-git commit - Creates a new commit with files from staging are
-
-git log - View recent commits
